@@ -1,0 +1,85 @@
+# 🚀 Kicau Store Backend
+
+Backend REST API menggunakan NestJS, TypeORM, dan MySQL.
+
+## Teknologi
+
+- NestJS
+- TypeORM
+- MySQL
+- REST API
+
+## Instalasi
+
+```bash
+npm install
+```
+
+## Menjalankan
+
+```bash
+npm run start:dev
+```
+
+Server berjalan di
+
+```
+http://localhost:3000
+```
+
+---
+
+## Database
+
+Database
+
+```
+kicau_store
+```
+
+---
+
+## Endpoint
+
+### GET Semua Produk
+
+```
+GET /products
+```
+
+### GET Produk Berdasarkan ID
+
+```
+GET /products/:id
+```
+
+### POST Produk
+
+```
+POST /products
+```
+
+### PATCH Produk
+
+```
+PATCH /products/:id
+```
+
+### DELETE Produk
+
+```
+DELETE /products/:id
+```
+
+---
+
+## Entity Product
+
+- id
+- name
+- description
+- category
+- image
+- price
+- stock
+
