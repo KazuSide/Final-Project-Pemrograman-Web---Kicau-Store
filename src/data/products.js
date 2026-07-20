@@ -1,0 +1,16 @@
+const products = [
+  { id: 1,  name: 'Pakan Lovebird Premium',      category: 'Pakan',      price: 35000,  originalPrice: 45000,  rating: 4.8, sold: 1240, emoji: '🌾', desc: 'Campuran biji-bijian pilihan untuk lovebird sehat dan aktif. Kaya nutrisi, tanpa pengawet.',       badge: 'Terlaris' },
+  { id: 2,  name: 'Voer Kenari Super',            category: 'Pakan',      price: 28000,  originalPrice: null,   rating: 4.7, sold: 890,  emoji: '🌿', desc: 'Voer premium khusus kenari dengan kandungan protein tinggi agar suara lebih kencang.',           badge: null },
+  { id: 3,  name: 'Sangkar Besi Stainless 40cm',  category: 'Sangkar',    price: 185000, originalPrice: 220000, rating: 4.9, sold: 456,  emoji: '🏠', desc: 'Sangkar anti karat bahan stainless steel, alas mudah dibersihkan, pintu lebar.',               badge: 'Premium' },
+  { id: 4,  name: 'Sangkar Bambu Tradisional',    category: 'Sangkar',    price: 95000,  originalPrice: null,   rating: 4.6, sold: 320,  emoji: '🎋', desc: 'Sangkar bambu pilihan, ringan dan estetis. Cocok untuk burung ocehan ukuran sedang.',          badge: null },
+  { id: 5,  name: 'Vitamin Bird Boost',           category: 'Vitamin',    price: 55000,  originalPrice: 70000,  rating: 4.9, sold: 2100, emoji: '💊', desc: 'Suplemen lengkap untuk meningkatkan stamina, kecerdasan, dan kegairahan berkicau.',            badge: 'Best Seller' },
+  { id: 6,  name: 'Minyak Ikan Omega-3',          category: 'Vitamin',    price: 42000,  originalPrice: null,   rating: 4.7, sold: 780,  emoji: '🐟', desc: 'Suplemen minyak ikan untuk bulu mengkilap dan sistem imun yang kuat.',                        badge: null },
+  { id: 7,  name: 'Tempat Pakan Stainless 2pcs',  category: 'Aksesoris',  price: 32000,  originalPrice: null,   rating: 4.5, sold: 530,  emoji: '🥣', desc: 'Wadah pakan anti tumpah berbahan stainless food grade. Mudah dipasang dan dibersihkan.',       badge: null },
+  { id: 8,  name: 'Tangkringan Kayu Natural',     category: 'Aksesoris',  price: 18000,  originalPrice: null,   rating: 4.4, sold: 940,  emoji: '🪵', desc: 'Tenggeran alami dari kayu jati pilihan untuk kenyamanan dan kesehatan kaki burung.',           badge: null },
+  { id: 9,  name: 'Sikat Sangkar Set',            category: 'Perawatan',  price: 25000,  originalPrice: 30000,  rating: 4.6, sold: 380,  emoji: '✂️', desc: 'Set sikat pembersih sangkar 3 ukuran. Menjangkau setiap sudut sangkar dengan mudah.',          badge: null },
+  { id: 10, name: 'Spray Mandi Burung',           category: 'Perawatan',  price: 48000,  originalPrice: null,   rating: 4.8, sold: 620,  emoji: '🚿', desc: 'Cairan mandi burung alami dengan aromaterapi lavender. Bulu bersih, wangi, dan berkilau.',    badge: null },
+  { id: 11, name: 'Mainan Bel Warna-warni',       category: 'Mainan',     price: 22000,  originalPrice: null,   rating: 4.5, sold: 720,  emoji: '🔔', desc: 'Mainan interaktif dengan bunyi bel mini untuk merangsang kecerdasan dan aktivitas burung.',    badge: null },
+  { id: 12, name: 'Ayunan Mini Plastik',          category: 'Mainan',     price: 15000,  originalPrice: null,   rating: 4.3, sold: 850,  emoji: '🎡', desc: 'Ayunan colorful untuk dalam sangkar. Membuat burung aktif dan tidak mudah stres.',            badge: null },
+]
+
+export default products
