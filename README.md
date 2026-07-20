@@ -7,7 +7,7 @@ Kicau Store adalah aplikasi web penjualan perlengkapan burung berbasis **React.j
 ## 👨‍💻 Anggota Kelompok
 
 - Daffa Sabiq Hibban
-- (Tambahkan nama anggota kelompok lainnya)
+- Rafael Rega Purnomo Aji 24.11.6103
 
 ---
 
